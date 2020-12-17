@@ -3,6 +3,7 @@ body{
     margin:0px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
+    display: flex;
 }
 
 img{
@@ -10,12 +11,19 @@ img{
 }
 
 a{
+    display:inline-block;
+    margin:auto;
+    text-align: center;
     text-decoration: none;
     color:inherit;
 }
 
 .menu{
     color:whitesmoke;
+}
+
+.menu-item:hover{
+    font-weight: bold;
 }
 
 /*Navigation grand écran*/
@@ -31,8 +39,8 @@ a{
         bottom:0%;
         display:flex;
         flex-direction: column;
-        width:300px;
-        position: absolute;
+        width:15%;
+        position: fixed;
         left: 0px;
         top:0px;
     }
