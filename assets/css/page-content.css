@@ -1,0 +1,173 @@
+h4 + img{
+    height: 60px;
+    width: 60px;
+}
+
+h4{
+    text-align: center;
+}
+
+iframe{
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+}
+
+.castor{
+    height: 375px;
+    display: block;
+    padding: 0px;
+}
+
+.castorimage{
+    display: inline-block;
+    height: 375px;
+    width: 1880px;
+    background: linear-gradient(to right, transparent, #332208 53%, black 90%),
+    url("Images/Photos/castor1.png"), no-repeat;
+    padding: 0px;
+}
+
+.castorcarre{
+    display: inline-block;
+    height: 375px;
+    width: 800px;
+    background: linear-gradient(to right, #332208, black);
+    padding: 0px;
+}
+
+.sous-titre{
+    font-weight: bold;
+}
+
+.sous-titre1{
+    font-weight: bold;
+}
+
+.texte-image-titre{
+    font-size: 0.7em;
+    padding: 100px 20px 0px 20px;
+
+}
+
+.page-titre{
+    background-image: url("Images/Photos/Les_loups1.jpg");
+    filter: grayscale(40%);
+    text-align: center;
+    background-size: cover;
+    border: 0px;
+
+}
+
+.content-photo-title-page{
+    color:white;
+    width: 100%;
+    top: 50%;
+    padding: 225px 0px 150px 0px;
+
+}
+
+.services-offerts-image{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 100%;
+    padding: 150px 0px 0px 0px;
+}
+
+.services-offerts-image img{
+    filter: invert(100%) opacity(50%) brightness(150%);
+    border: 1px groove black;
+}
+
+
+
+.services-offerts{
+    display: grid;
+    width: 92%;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-column-gap: 30px;
+    text-align: justify;
+}
+
+table{
+    width: 100%;
+    border: 5px solid transparent;
+    border-image: url(./Images/feuille_bordure.png) 30 round;
+}
+
+table img{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+table td ol > li{
+    font-weight: bold;
+}
+
+table tr:first-child{
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 20px;
+}
+
+
+table ul li:last-child{
+    list-style: none;
+    list-style-image: url(./Images/duree.png);
+    list-style-type: square;
+    margin-left: 0px;
+
+}
+
+table ul li:first-child{
+    list-style: none;
+    list-style-image: url(./Images/distance.png);
+    list-style-type: square;
+    margin-left: 0px;
+}
+
+td{
+    border-bottom: 2px solid darkgray;
+}
+
+
+
+
+table tr td:nth-child(2){
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+
+
+
+
+/* .page-titre-overlay{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    background: rgba(50, 50, 50, 0.2);
+} */
+
+/* A mettre dans le fichier main-page-content.css*/
+/* .grid-wrapper-contenu1{
+    display: grid;
+    grid-template-columns: 75% 25%;
+} */
+
+
+
+
+
+/*A mettre dans le fichier navbar.css*/
+
+
+
+
+
+/*A mettre dans le fichier main.css*/
+
+
+
