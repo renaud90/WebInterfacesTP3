@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/slide-button.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div id="button-outside" onclick="Slide()">
+        <div id="button-inside"></div>
+    </div>
+
+    <script>
+            function Slide() {
+                document.getElementById('button-outside').classList.toggle('button-outside-clicked');
+                document.getElementById('button-inside').classList.toggle('button-inside-clicked');
+            }
+        </script>
+</body>
+</html>

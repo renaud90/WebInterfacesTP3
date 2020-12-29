@@ -1,0 +1,26 @@
+#button-outside{
+    width:95px;
+    height:40px;
+    border-radius:20px;
+    background-color:lightgray;
+    border: 2px solid grey;
+}
+
+#button-inside{
+    width:38px;
+    height:38px;
+    margin: 1px;
+    border-radius:19px;
+    background-color: gray;
+    transition: margin-left 1s;
+    
+}
+
+.button-outside-clicked{
+    background-color: greenyellow !important;
+}
+
+.button-inside-clicked{
+    margin-left: 56px !important;
+    transition: margin-left 1s;
+}
